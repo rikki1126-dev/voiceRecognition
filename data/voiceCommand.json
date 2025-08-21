@@ -1,0 +1,8 @@
+{
+    "start": ["start", "begin"],
+    "stop": ["stop", "pause"],
+    "speedup": ["speed up"],
+    "speeddown": ["speed down"],
+    "weightup": ["weight up", "increase"],
+    "weightdown": ["weight down", "decrease"]
+}
