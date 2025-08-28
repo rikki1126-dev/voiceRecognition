@@ -6,9 +6,10 @@ def main():
     """
     try:
         print("[INFO] Voice controller has been launched")
+        # GPIOを初期化
+        gpioController.gpioInit()
+        # ユーザの音声を聞き取る
         while True:
-            # ユーザの音声を聞き取る
-            
             # ウェイクワード検出機能を使う場合
             # voice_command = voiceListener.listen()
             
@@ -21,7 +22,8 @@ def main():
                 gpioController.control(voice_command)
             
     except KeyboardInterrupt:
-        # ctrl+c でループ終了
+        # GPIOをクリーンアップ
+        gpioController.gpioCleanUp()
         print("[INFO] Voice controller has been stopped")
 
 if __name__ == "__main__":

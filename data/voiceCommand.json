@@ -1,8 +1,9 @@
 {
+    "initialposition": ["initial position", "start position", "workout position"],
     "start": ["start", "begin"],
     "stop": ["stop", "pause"],
-    "speedup": ["speed up"],
-    "speeddown": ["speed down"],
     "weightup": ["weight up", "increase"],
-    "weightdown": ["weight down", "decrease"]
+    "weightdown": ["weight down", "decrease"],
+    "angleup": ["angle up"],
+    "angledown": ["angle down"]
 }
